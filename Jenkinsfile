@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'hostname'
+                echo 'test branch'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'ls'
+                echo 'test branch'
             }
         }
     }
